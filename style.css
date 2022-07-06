@@ -1,0 +1,57 @@
+html, body{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:  aliceblue;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 20px;
+}
+.newsletters {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+   
+}
+
+button{
+    width: 120px;
+    color: white;
+    background-color: rgb(33, 149, 156);
+    border-radius:  5px;
+    border: 1px rgb(33, 149, 156) solid;
+    height: 40px;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.form {
+    width: 550px;
+    margin: 80px auto;
+    border-radius: 5px;
+}
+
+.test{
+    font-weight: bold;
+}
+
+label{
+    display: inline;
+}
+
+input{
+    height: 25px;
+}
+
+ span {
+     color: green;
+    font-size: 1.4em;
+    }
+
+/*# sourceMappingURL=style.css.map */
